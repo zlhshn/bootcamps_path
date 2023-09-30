@@ -15,22 +15,80 @@ header{
     font-family: 'Rubik Bubbles', cursive;
     color: rgb(156, 36, 156);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2em;
     margin: 1%;
 }
 
 .box{
-    width: 85%;
-    margin: 10%;
+    width: 80%;
+    margin: 0 auto 3% auto;
+    border: 1px solid black;
+    height: 34vh;
+    padding: 1vh;
+    background-color: #dc73b4;
+background-image: linear-gradient(225deg, #dc73b4 0%, #8e6ea8 50%, #59a7e2 100%);
+border: none;
+box-shadow: 0.5px 0.5px 10px#4a384e;
+border-radius: 5px;
+position: relative;
+
+  
 }
 
+ 
+
+
 .box img{
-width: 25%;
-float: left;
+    width: 30%;
+    float: left;
+    height: 95%;
+    margin-right: 1%;}
+
+
+    
+.box img:hover{
+    width: 450px;
+    height: 98%;
+    cursor: pointer;
 }
-/* 
-main::after{
-    content: " ";
-    display: block;
+
+ .clear{
     clear: both;
-} */
+}
+.box p{
+    margin-bottom: 1.5%;
+    color: white;
+   
+}
+
+.box h2{
+    color: #F4A460;
+    font-size: 2rem;
+}
+
+button{
+    float: right;
+    margin-left: 80%;
+    padding: 9px;
+    width: 100px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF7F50;
+   position: absolute;
+   right: 1.5%;
+}
+
+
+button:hover{
+   width:120px ;
+   height:42px  ;
+}
+  
+
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
